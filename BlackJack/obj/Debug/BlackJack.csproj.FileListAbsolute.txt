@@ -1,0 +1,5 @@
+C:\Users\ej222pj\Desktop\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\ej222pj\Desktop\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\ej222pj\Desktop\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\ej222pj\Desktop\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\ej222pj\Desktop\BlackJack\obj\Debug\BlackJack.pdb
