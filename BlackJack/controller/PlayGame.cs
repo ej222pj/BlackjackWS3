@@ -2,13 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using BlackJack.model;
 
 namespace BlackJack.controller
 {
-    class PlayGame
+    class PlayGame : IDealCard
     {
+        private model.Game a_game;
+        private view.IView a_view;
+
+        public PlayGame(model.Game game, view.IView view)
+        {
+            a_game = game;
+            a_view = view;
+        }
         
-        public bool Play(model.Game a_game, view.IView a_view)
+        public bool Play()
         {
             char newgame = 'p';
             char hit = 'h';
@@ -16,9 +26,7 @@ namespace BlackJack.controller
             char quit = 'q';
 
             a_view.DisplayWelcomeMessage();
-            
-            a_view.DisplayDealerHand(a_game.GetDealerHand(), a_game.GetDealerScore());
-            a_view.DisplayPlayerHand(a_game.GetPlayerHand(), a_game.GetPlayerScore());
+            doOutput(a_game.IsGameOver());
 
             if (a_game.IsGameOver())
             {
@@ -29,18 +37,40 @@ namespace BlackJack.controller
 
             if (input == newgame)
             {
+                Thread.Sleep(1000);
                 a_game.NewGame();
             }
             else if (input == hit)
             {
+                Thread.Sleep(1000);
                 a_game.Hit();
             }
             else if (input == stand)
             {
+                Thread.Sleep(1000);
                 a_game.Stand();
             }
 
             return input != quit;
+        }
+
+        public void DealCard() 
+        {
+            a_view.DisplayWelcomeMessage();
+            doOutput(a_game.IsGameOver());
+            System.Threading.Thread.Sleep(3000);
+        }
+
+        public void doOutput(bool isGameOver)
+        {
+            if (isGameOver == true)
+            {
+                a_view.doOutput(a_game.GetDealerHand(), a_game.GetPlayerHand(), a_game.GetDealerScore(), a_game.GetPlayerScore(), true, a_game.IsDealerWinner());
+            }
+            else
+            {
+                a_view.doOutput(a_game.GetDealerHand(), a_game.GetPlayerHand(), a_game.GetDealerScore(), a_game.GetPlayerScore(), false, "dealer");
+            }
         }
     }
 }

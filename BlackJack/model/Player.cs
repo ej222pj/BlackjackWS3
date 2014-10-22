@@ -9,9 +9,17 @@ namespace BlackJack.model
     {
         private List<Card> m_hand = new List<Card>();
 
+        private IDealCard observer;
+
+        public void RegisterObserver(IDealCard observer)
+        {
+            this.observer = observer;
+        }
+
         public void DealCard(Card a_card)
         {
             m_hand.Add(a_card);
+            observer.DealCard();
         }
 
         public IEnumerable<Card> GetHand()

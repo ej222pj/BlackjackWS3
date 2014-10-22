@@ -61,16 +61,16 @@ namespace BlackJack.view
                 default:
                     break;
             }
-            //System.Console.Write("GameOver: ");
-            //if (a_dealerIsWinner)
-            //{
-            //    System.Console.WriteLine("Dealer Won!");
-            //}
-            //else
-            //{
-            //    System.Console.WriteLine("You Won!");
-            //}
             
+        }
+        public void doOutput(IEnumerable<model.Card> dealerHand, IEnumerable<model.Card> playerHand, int dealerScore, int playerScore, bool gameOver, string isDealerWinner)
+        {
+            DisplayDealerHand(dealerHand, dealerScore);
+            DisplayPlayerHand(playerHand, playerScore);
+            if (gameOver)
+            {
+                DisplayGameOver(isDealerWinner);
+            }
         }
     }
 }
