@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,16 +56,6 @@ namespace BlackJack.view
                 default:
                     break;
             }
-
-           
-            //if (a_dealerIsWinner)
-            //{
-            //    System.Console.WriteLine("Croupiern Vann!");
-            //}
-            //else
-            //{
-            //    System.Console.WriteLine("Du vann!");
-            //}
         }
 
         private void DisplayHand(String a_name, IEnumerable<model.Card> a_hand, int a_score)
