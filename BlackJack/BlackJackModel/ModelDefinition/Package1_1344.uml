@@ -76,6 +76,20 @@
               LastKnownName="IDealCard"
               LastKnownLocation="Package2_1344.uml" />
           </interfaceRealization>
+          <dependency
+            Id="68ddc2b9-2b7d-4c39-9169-cc49bc888b2a">
+            <interfaceMoniker
+              Id="5d5533cb-3876-4fca-a7d4-4212e78b8142"
+              LastKnownName="IView"
+              LastKnownLocation="Package3_1344.uml" />
+          </dependency>
+          <dependency
+            Id="175ef197-f7d9-4c52-9cbe-dba46d90d57f">
+            <classMoniker
+              Id="6ffa8bf4-ae88-4324-83f9-9b8b58d59994"
+              LastKnownName="Game"
+              LastKnownLocation="Package2_1344.uml" />
+          </dependency>
         </suppliersInternal>
         <ownedAttributesInternal>
           <property
