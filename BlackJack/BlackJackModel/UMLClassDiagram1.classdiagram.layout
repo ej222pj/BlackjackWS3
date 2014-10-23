@@ -165,7 +165,7 @@
         <interfaceShapeMoniker Id="ac3181af-476c-4c2c-ad7d-f46c661ac10f" />
       </nodes>
     </realizationConnector>
-    <realizationConnector edgePoints="[(2.125 : 9.125); (2.125 : 8.69300345897675); (2.47752451380647 : 8.69300345897675); (2.47752451380647 : 8.31800345897675)]" fixedFrom="NotFixed" fixedTo="Caller" customColor="113, 111, 110" showAsLollipop="false">
+    <realizationConnector edgePoints="[(2.125 : 9.125); (2.125 : 8.69300345897675); (2.5 : 8.69300345897675); (2.5 : 8.31800345897675)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
       <interfaceRealizationMoniker Id="f97c3660-0b3d-4054-8361-c4f6a912017a" />
       <relativeChildShapes />
       <nodes>
