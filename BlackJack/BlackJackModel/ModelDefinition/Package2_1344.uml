@@ -1226,13 +1226,29 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="6f94502b-bed8-4438-ba28-13d67ecf5cab">
+            <classMoniker
+              Id="6ffa8bf4-ae88-4324-83f9-9b8b58d59994"
+              LastKnownName="Game"
+              LastKnownLocation="Package2_1344.uml" />
+          </dependency>
+          <dependency
+            Id="f4040449-bebd-4110-b55d-6b7c5d4802c5">
+            <classMoniker
+              Id="2c452dae-7a48-48bc-a8cf-09ae83d8a7bc"
+              LastKnownName="Player"
+              LastKnownLocation="Package2_1344.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedOperations>
           <operation
             Id="52e9251e-cd8f-4a60-8e8b-9bb7d5eadf86"
             name="DealCard"
             isLeaf="false"
             isStatic="false"
-            isAbstract="true"
+            isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
             <referencesInternal>
@@ -2324,6 +2340,120 @@
                       value="*" />
                   </upperValueInternal>
                 </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2e9ac9f7-151e-43bc-af2e-14aa30265db2"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="m_newGameRule"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="42a2f909-e086-4719-94ee-90501c5f109d"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package_1349.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f6b8b02-1a06-4120-b588-8a426cf092d4"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6fb580c9-f351-4ac3-b87e-4a16bee8b33a"
+                  name="m_newGameRule"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4354504b-dbcd-4147-9095-8332bf1099e7"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="m_hitRule"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="7a61b693-4aae-44b2-98b4-d4a8a576713f"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package_1349.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="314ddf03-c310-4bba-88a7-6d7d80745925"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81f532e8-58d3-460d-a0ac-fe8dd84dc031"
+                  name="m_hitRule"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e8dd57c1-7224-46b7-9183-7f201f08e955"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName="m_WinRule"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="ebedef29-40c0-431f-86c3-ee8c85b68a07"
+              LastKnownName="IWinStrategy"
+              LastKnownLocation="Package_1349.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="17fa7ba0-1bf4-4cda-8992-c98836528365"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b3e4edf-282f-482d-be9b-7412c69f12f9"
+                  name="m_WinRule"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>

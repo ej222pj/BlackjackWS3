@@ -68,13 +68,6 @@
               LastKnownName="Card"
               LastKnownLocation="Package2_1344.uml" />
           </dependency>
-          <dependency
-            Id="337e09c9-ff37-440e-b2c5-0da1cdc440bd">
-            <classMoniker
-              Id="2706c157-e188-4d42-bf30-3a60388c60f5"
-              LastKnownName="Card"
-              LastKnownLocation="Package2_1344.uml" />
-          </dependency>
         </suppliersInternal>
         <ownedOperations>
           <operation
