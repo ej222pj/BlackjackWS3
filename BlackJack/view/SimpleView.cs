@@ -58,6 +58,9 @@ namespace BlackJack.view
                 case "player":
                     System.Console.WriteLine("You Won!");
                     break;
+                case "even":
+                    System.Console.WriteLine("It's Even!");
+                    break;
                 default:
                     break;
             }

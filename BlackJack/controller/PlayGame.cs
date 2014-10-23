@@ -28,11 +28,6 @@ namespace BlackJack.controller
             a_view.DisplayWelcomeMessage();
             doOutput(a_game.IsGameOver());
 
-            if (a_game.IsGameOver())
-            {
-                a_view.DisplayGameOver(a_game.IsDealerWinner());
-            }
-
             int input = a_view.GetInput();
 
             if (input == newgame)
@@ -58,7 +53,7 @@ namespace BlackJack.controller
         {
             a_view.DisplayWelcomeMessage();
             doOutput(a_game.IsGameOver());
-            System.Threading.Thread.Sleep(3000);
+            System.Threading.Thread.Sleep(1500);
         }
 
         public void doOutput(bool isGameOver)
