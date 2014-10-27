@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8853be6c-880f-4c87-bb8e-93a95012cd6d" name="UMLClassDiagram1" linkedPackageId="6b486861-b7d1-42cd-91fd-343c4cb00480" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="ab29db09-33a4-4432-a2f3-96996448f8a8">
-      <profileInstance Id="3d4eccfd-9aff-41c2-867a-8618364de6e9" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="232208ee-8e9e-4adf-97ed-3cdb75438edc">
-      <profileInstance Id="4caa9ad8-d640-408b-86a2-5086bc40a18d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ab737414-8613-4537-91cb-83565aab4cf8">
-      <profileInstance Id="278b5d73-e722-43bc-abbe-cca10c65de1c" name="CSharpProfile">
-        <elementDefinition Id="a688aa8c-8bfc-4446-aa97-9fac18cc6b27" />
-      </profileInstance>
-      <elementDefinition Id="c63bf817-fab6-46a5-815a-be67ed278e6f" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="98ada922-f3d0-4569-9482-d94e0c8e5e8c" name="Game" isAbstract="false" isLeaf="false" cachedFullName="BlackJackModel::BlackJack::model::Game">
@@ -4377,5 +4357,25 @@
   </packagedElements>
   <package Id="6b486861-b7d1-42cd-91fd-343c4cb00480" name="BlackJackModel">
     <elementDefinition Id="46f1f7dc-7d54-44d9-b2ed-cc4ff28044bd" />
+    <profileInstances>
+      <packageHasProfileInstances Id="ab29db09-33a4-4432-a2f3-96996448f8a8">
+        <profileInstance Id="3d4eccfd-9aff-41c2-867a-8618364de6e9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="232208ee-8e9e-4adf-97ed-3cdb75438edc">
+        <profileInstance Id="4caa9ad8-d640-408b-86a2-5086bc40a18d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ab737414-8613-4537-91cb-83565aab4cf8">
+        <profileInstance Id="278b5d73-e722-43bc-abbe-cca10c65de1c" name="CSharpProfile">
+          <elementDefinition Id="a688aa8c-8bfc-4446-aa97-9fac18cc6b27" />
+        </profileInstance>
+        <elementDefinition Id="c63bf817-fab6-46a5-815a-be67ed278e6f" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
