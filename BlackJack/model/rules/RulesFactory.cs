@@ -20,9 +20,9 @@ namespace BlackJack.model.rules
         }
         public IWinStrategy GetWinRule()
         {
-            //return new DealerWins();
+            return new DealerWins();
             //return new PlayerWins();
-            return new SplitOnEven();
+            //return new SplitOnEven();
         }
     }
 }

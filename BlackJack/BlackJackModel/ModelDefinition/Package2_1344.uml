@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="f44fbbf7-6aa6-459d-832c-d9272a0f3549"
   name="model"
@@ -68,6 +68,15 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="d22b3ee3-3843-498b-9f41-5e06243893f9">
+            <interfaceMoniker
+              Id="1d0c3fe6-bdf5-4b9e-be5f-e403b7ac0c05"
+              LastKnownName="IDealCard"
+              LastKnownLocation="Package2_1344.uml" />
+          </dependency>
+        </suppliersInternal>
         <targetEnds>
           <association
             Id="b64c23ff-698d-4658-bfa6-01a942d346b5"
@@ -353,13 +362,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d4606102-1266-4498-947a-8e5d243dde36">
-                    <propertyInstance
-                      Id="a616399d-adfa-487a-8b17-24e663e9aa1b"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="d65c0a1b-a67c-40d9-a87b-b945fd4accd5">
                     <propertyInstance
                       Id="a75ca036-61ef-494f-8706-6bb772a95de1"
@@ -439,13 +441,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="50a693e2-808f-499b-9a19-f8cce8951232">
-                    <propertyInstance
-                      Id="df7a103e-0970-433e-85a3-741f56c73045"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="877bcce7-084d-403d-9743-f37592c0e34a">
                     <propertyInstance
                       Id="f533a20c-263b-4e0f-ad78-7b76cf5d033f"
@@ -516,13 +511,6 @@
                       Id="22f34537-692d-467e-9e44-84f23b1bb1a4"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="53fe6e30-64b8-4733-89bc-62d883a2af82">
-                    <propertyInstance
-                      Id="44ae190d-d641-4c96-88e2-a3718c23576f"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="edb06940-6c44-493c-b2c1-4a7e4ca5e5c3">
@@ -597,13 +585,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="5006b10a-32e4-4745-b657-34ae11090d80">
-                    <propertyInstance
-                      Id="2b59f6d8-32ed-4cfb-a2d2-d854e82ffdfe"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="f027b730-fe26-453e-8902-addeafb83ddd">
                     <propertyInstance
                       Id="a60c7424-e607-4606-8fc9-ac5f41a9b2bd"
@@ -674,13 +655,6 @@
                       Id="533915a8-b14a-4595-b654-053b70d1d9de"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="4c2ece9b-4da3-4bad-aabc-0cdb9d3150a4">
-                    <propertyInstance
-                      Id="8002d5bb-9bb9-41e8-8c48-1ebcffac93c6"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="879469ea-3537-4572-9af7-6f8958be7ed6">
@@ -755,13 +729,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="de878fef-d04f-4684-9192-4715e9fa8a29">
-                    <propertyInstance
-                      Id="8e32f29d-9bd3-418a-addb-a3c6243f8a41"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="fc9fe76e-526b-442a-ab93-1ebc75ff3ce5">
                     <propertyInstance
                       Id="9957142e-eb8c-43c2-811e-cda871d92cb3"
@@ -832,13 +799,6 @@
                       Id="58cb20f1-dcf6-4506-872c-e5b3c971d794"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="136cbf57-e377-4940-b3ba-a3cec5ee7010">
-                    <propertyInstance
-                      Id="18343540-0240-4c30-be30-717c7cc07c66"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="8bfa00c9-d985-4129-a274-1c75f9aef7ff">
@@ -913,13 +873,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="5f3a6eb2-f959-4b43-a073-8e638019b326">
-                    <propertyInstance
-                      Id="d68affaf-7fb4-40b2-b965-67600bf0af27"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="82627c82-cc2b-4a8c-8614-b0e8d00ddfe0">
                     <propertyInstance
                       Id="5ac237e0-12bc-4bf1-82b1-b3e38090f352"
@@ -990,13 +943,6 @@
                       Id="93472c87-ba0e-4fb2-9b75-8b21280564d1"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8884cf3c-c18c-41fc-bdcc-596452bce177">
-                    <propertyInstance
-                      Id="321ee1e9-7738-4ff0-ade6-b59f04d0ac66"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="bb28b510-de5e-4e42-b6c4-717b41e49be8">
@@ -1071,13 +1017,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9f56b93b-4421-4fdb-a6df-c9dc58224184">
-                    <propertyInstance
-                      Id="afe11bcc-df24-4f79-b475-f3e0176d0d41"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="cba5eeba-2241-4735-a583-8d6e4e239682">
                     <propertyInstance
                       Id="0f62d299-f6c8-454b-a0ff-8086965703ef"
@@ -1150,13 +1089,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="70c1fa35-b6d9-444d-b1c2-c917e852a872">
-                    <propertyInstance
-                      Id="180fb371-7982-4fa7-afcf-1431427e7c8b"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="f66639f6-adcc-47a9-aed9-dd532b4d7147">
                     <propertyInstance
                       Id="003d2be5-32f7-4b65-bbed-416960ff9b63"
@@ -1226,22 +1158,6 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <suppliersInternal>
-          <dependency
-            Id="6f94502b-bed8-4438-ba28-13d67ecf5cab">
-            <classMoniker
-              Id="6ffa8bf4-ae88-4324-83f9-9b8b58d59994"
-              LastKnownName="Game"
-              LastKnownLocation="Package2_1344.uml" />
-          </dependency>
-          <dependency
-            Id="f4040449-bebd-4110-b55d-6b7c5d4802c5">
-            <classMoniker
-              Id="2c452dae-7a48-48bc-a8cf-09ae83d8a7bc"
-              LastKnownName="Player"
-              LastKnownLocation="Package2_1344.uml" />
-          </dependency>
-        </suppliersInternal>
         <ownedOperations>
           <operation
             Id="52e9251e-cd8f-4a60-8e8b-9bb7d5eadf86"
@@ -1282,13 +1198,6 @@
                       Id="bb9be8c3-5b65-4586-ab11-9aac6bfe6930"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e0b7da05-ef45-4ce5-b1cf-ac6701a9388f">
-                    <propertyInstance
-                      Id="3162de70-c294-4473-998f-df801c7bc092"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="98a651e8-0896-4892-ba28-9ebd451d5ce8">
@@ -1613,13 +1522,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c50beccb-335e-45f6-8f25-5c4e6acb6372">
-                    <propertyInstance
-                      Id="cd73b377-bb93-4a1f-abc8-d62102526c9e"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="b4bb2116-3e5a-4bf5-a895-bf1453a22675">
                     <propertyInstance
                       Id="ee4a5d01-66ed-41e4-803e-08fadda9bb4b"
@@ -1718,13 +1620,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="0c87855e-d93d-4901-9801-5a08e660f457">
-                    <propertyInstance
-                      Id="3bd78de4-56c8-43de-995f-6e932d9403bb"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="2eaeca40-9bb6-48a7-aa85-b9c03aaeff89">
                     <propertyInstance
                       Id="d39d77dc-da71-4c76-b9c5-68de2b40961d"
@@ -1797,13 +1692,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3820a531-a443-4398-b00e-e6c8edd4e779">
-                    <propertyInstance
-                      Id="c2742657-4fc5-4e20-9cd3-0e75fa01ec5a"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="5c0755e2-c05b-4dbf-a391-62dc6d877dcf">
                     <propertyInstance
                       Id="25659a16-252c-4bc8-90b3-6379e60fe7fd"
@@ -1874,13 +1762,6 @@
                       Id="72ed448b-5947-46f3-bf6c-670a124af089"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="f17285c1-13b7-4e38-8d39-59b33343a180">
-                    <propertyInstance
-                      Id="2bbe5660-46d4-4f83-8482-cbd6cd819100"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="f795bb0d-e0ff-4603-86c9-41176bd0a4ee">
@@ -2830,13 +2711,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9018b9dc-f09a-42b7-90c7-409dcef58131">
-                    <propertyInstance
-                      Id="8b9e2200-4d31-497a-98c7-3f012d8949b1"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="1a972f3d-d55e-4974-8967-0dfc6f317505">
                     <propertyInstance
                       Id="d7a96029-e520-40e9-aa28-452bcbb80309"
@@ -2914,13 +2788,6 @@
                       Id="29b45bd0-9791-4ca4-9fc2-4f8d93a433e2"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="cfe80a18-09bc-46bf-9314-8fd115dd6c8f">
-                    <propertyInstance
-                      Id="8ee714bf-7bfc-447b-8e92-704d2b77db36"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="3f163038-b5b2-4687-bb31-ff2b341bc985">
@@ -3014,13 +2881,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="8580855f-2138-4f23-927a-222664a49a7b">
-                    <propertyInstance
-                      Id="64ca9a0b-93f5-4f98-8bd3-e33493489681"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="7a52a222-df2a-483f-b313-63439c2ebd84">
                     <propertyInstance
                       Id="e4adcff2-de96-4e3e-89fd-dded3ae8cc01"
@@ -3098,13 +2958,6 @@
                       Id="f90e67b4-8bff-424d-b5d4-d90c38c244e9"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a6d20e8d-fe0d-4b10-8464-4999234bc5a6">
-                    <propertyInstance
-                      Id="bde30f37-df20-4612-8625-fea1d073f933"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="147a5635-25ab-412b-accb-29063f691118">
@@ -3198,13 +3051,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="101ab958-efcc-41ca-9d6a-710326ee0b50">
-                    <propertyInstance
-                      Id="a64f930c-4ab2-43c5-8137-ffa1e749dd5c"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="fd80991a-688a-4ec0-97a1-ffad5fd77eaa">
                     <propertyInstance
                       Id="5f7bcfc4-56ac-47b2-871e-7a4e5a7c3071"
@@ -3294,13 +3140,6 @@
                       Id="58aebfe6-1b36-4bfd-ac34-ab0222717aa4"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e4c838ab-aa4e-49fe-b4b9-cbf1307a060e">
-                    <propertyInstance
-                      Id="e3d56f69-6b69-46fb-9d71-ceb08de6df1e"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="0979c9b6-f379-457b-8430-bb5ee460f185">
@@ -3413,13 +3252,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="626d24c1-16a0-41ba-97ca-f7da9d06e487">
-                    <propertyInstance
-                      Id="363e4d5b-d31f-4f40-b667-296a821799b0"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="12d7cbbf-223b-4b06-a8af-60913f7fb8c0">
                     <propertyInstance
                       Id="3ed71fba-749f-4268-9b70-1ab48f75adea"
@@ -3517,6 +3349,15 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="e9c5f224-14c3-43e7-9414-cfc8f8c38aeb">
+            <interfaceMoniker
+              Id="1d0c3fe6-bdf5-4b9e-be5f-e403b7ac0c05"
+              LastKnownName="IDealCard"
+              LastKnownLocation="Package2_1344.uml" />
+          </dependency>
+        </suppliersInternal>
         <targetEnds>
           <association
             Id="17f5122d-c4c3-487e-8ef2-d8a71fa69493"
@@ -3735,13 +3576,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="5ee0169d-86e1-41b1-8ddc-0c7073c6120a">
-                    <propertyInstance
-                      Id="9e262d59-559f-442a-8fa9-02c8e8e56e85"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="adb84f9b-2668-4364-818b-62cfefe8ca45">
                     <propertyInstance
                       Id="18a3e2cf-5ccc-4ed4-a6b4-91833daabefa"
@@ -3798,13 +3632,6 @@
                       Id="7d1ed56d-9daf-4200-ad5b-f2f49f8ea109"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="35d82d3c-f8e9-4b59-9168-3f4776009358">
-                    <propertyInstance
-                      Id="b5ce850a-f60f-47e5-a57d-2c7c4fc8e202"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="d6207e28-e2fa-4e48-bd6b-bd17621f5854">
@@ -3886,13 +3713,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6eaca04e-48f8-4330-a1a2-b69dfbce125e">
-                    <propertyInstance
-                      Id="415da8d2-9f3d-4d6f-9502-144b2730d690"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="e337d26e-5ce2-4175-a5dc-fee7d38dd487">
                     <propertyInstance
                       Id="4b1c7a44-d464-4dfe-9eef-f52a3a48c8bb"
@@ -3949,13 +3769,6 @@
                       Id="3b5ca049-7cd6-4307-bb04-a97fbd7a4166"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c50266ff-e526-4121-8983-8e128cdda611">
-                    <propertyInstance
-                      Id="16a76679-9796-46a3-ab9c-f536879a6656"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="5e650db0-c990-4e69-aac5-6fb628b2296a">
@@ -4028,13 +3841,6 @@
                       Id="07aa91c4-50bb-4fcf-a200-ebe7d57f3d76"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c267de16-a4b0-4669-a5c1-6fd6eef4b975">
-                    <propertyInstance
-                      Id="830ea72f-f9a2-4eae-972b-a2dc9495d931"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="bef549a0-46a2-4081-97a0-6c1765a778be">
@@ -4116,13 +3922,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3ceb6421-b2d3-4542-b637-2127502293a8">
-                    <propertyInstance
-                      Id="434b2766-21ec-4ae1-8b7c-36227e9938ac"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="f1fa5343-6857-41e9-9f49-6ada5a5f70f9">
                     <propertyInstance
                       Id="b6fa7830-785c-4571-b578-472d1ea5463d"
@@ -4193,13 +3992,6 @@
                       Id="438b55c3-d96c-494d-adfb-3adf42fc040e"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2e4453db-9042-417a-996c-c1a1489bf7f8">
-                    <propertyInstance
-                      Id="0f134185-b3d8-46c5-9a4d-e8fa3d42a3b9"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="24dcdf05-ca1e-4fdf-b9b3-74c15899742b">
@@ -4443,13 +4235,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="299679c6-74fd-48d6-b1ba-b53448705ce1">
-                    <propertyInstance
-                      Id="eef0315b-10d6-48db-944c-dc7124993ed6"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="0f387a8b-e073-4a58-996d-264fc0e24647">
                     <propertyInstance
                       Id="80568369-47b8-456f-ab73-b7e7ffa88f96"
@@ -4520,13 +4305,6 @@
                       Id="5632eacd-be5b-4628-a24b-a3bb637e183f"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="97813492-887e-473a-90d5-8c78bc93863f">
-                    <propertyInstance
-                      Id="c4fd6132-b66d-48ba-ac64-633af1864466"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="25be286b-dfa8-448c-b029-c06f5896ea74">
@@ -4608,13 +4386,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="dc20eb9b-7e10-4bbd-bdff-92420e8be327">
-                    <propertyInstance
-                      Id="697ce123-928f-43e3-b78b-54ec65d2653f"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="41f61827-b5dd-44ab-90a2-96a12aea6214">
                     <propertyInstance
                       Id="77b42048-4fd2-40e3-8273-4cc7ebeefaa7"
@@ -4688,13 +4459,6 @@
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3f40992f-26c3-407b-bb72-f27fec20c636">
-                    <propertyInstance
-                      Id="4e74833c-674c-4ac1-aae1-8e9bfe161d68"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
                     Id="6a5627af-d81b-40a0-88e6-fda6a2e7965a">
                     <propertyInstance
                       Id="9299876f-b7ed-4ee3-a771-a3aa0e578785"
@@ -4751,13 +4515,6 @@
                       Id="35431961-8ac4-4ea8-9277-2ba8fa4e0a44"
                       name="IsUnsafe"
                       value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="855afd98-fdd6-4062-b1a0-dd443f08652f">
-                    <propertyInstance
-                      Id="4e62af7e-60ad-4935-9339-d41563282d81"
-                      name="Inheritance"
-                      value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
                     Id="778d18af-b0d0-4059-9130-13c91cc62814">

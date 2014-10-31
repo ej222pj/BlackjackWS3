@@ -23,7 +23,7 @@ namespace BlackJack.model.rules
             {
                 return "player";
             }
-            return "dealer";
+            return "player";
           
         }
     }

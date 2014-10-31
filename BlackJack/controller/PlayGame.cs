@@ -32,17 +32,17 @@ namespace BlackJack.controller
 
             if (input == newgame)
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(10);
                 a_game.NewGame();
             }
             else if (input == hit)
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(10);
                 a_game.Hit();
             }
             else if (input == stand)
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(10);
                 a_game.Stand();
             }
 
@@ -53,7 +53,7 @@ namespace BlackJack.controller
         {
             a_view.DisplayWelcomeMessage();
             doOutput(a_game.IsGameOver());
-            System.Threading.Thread.Sleep(1500);
+            System.Threading.Thread.Sleep(15);
         }
 
         public void doOutput(bool isGameOver)
