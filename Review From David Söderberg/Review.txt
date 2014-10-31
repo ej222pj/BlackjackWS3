@@ -1,0 +1,33 @@
+Review Eric Sjöström Jennerstarnd
+Länk till koden: github.com/ej222pj/BlackjackWS3 Reviewn gjord av David Söderberg och Svante Arvedson
+
+Try to compile/use the source code provided. Can you get it up and running? Is anything problematic?
+Inga problem att köra koden, varken från kommandotolken eller från Visual Studio.
+
+Test the runnable version of the application in a realistic way. Note any problems/bugs.
+Det finns en bugg i klassen model\rules\SplitOnEven.cs som gör att dealern alltid vinner i de fall som båda har lägre poäng än g_maxscore men inte samma poäng.
+Det finns ytterligare en bugg i klassen model\rules\DealerWins.cs som resulterar i att dealern vinner trots att spelaren har mer poäng (buggen finns på rad 22).
+
+Does the implementation and diagrams conform (do they show the same thing)? Are there any missing relations? Relations in the wrong direction?
+Dependecy-pilarna som utgår från interfacet IDealCard (i diagramet KlassdiagramWS3 Våra ändringar.jpg) är riktade åt fel hått, det är klasserna Game och Player som är beroende av IDealGame, inte tvärtom. I övrigt stämmer diagram och implementation överens.
+
+Is the dependency between controller and view handled? How? Good? Bad?
+Beroendet mellan klasserna PlayGame och vyklasserna är fortfarande kvar. Berondet finns mellan presentationsmeddelandet och metoden PlayGame/Play().
+
+Is the Strategy Pattern used correctly for the rule variant Soft17?
+Detta ser korrekt impelemnterat ut.
+
+Is the Strategy Pattern used correctly for the variations of who wins the game?
+Strategy pattern verkar vara korrekt implementerat, men lösningen intruducerar ett strängberoende mellan modellen (IWinStrategy, metod winRule) och vyn (klassen SimpleView och SwedishView, metod DisplayGameOver).
+
+Is the duplicate code removed from everywhere and put in a place that does not add any dependencies (What class already knows about cards and the deck)? Are interfaces updated to reflect the change?
+Den duplicerade koden är borttagen i klassen Dealer.cs men finns fortfarande kvar i klasserna som implementerar INewGameStrategy.
+
+Is the Observer Pattern correctly implemented?
+Det ser korrekt implementerat ut. Listan m_subscribers i klassen Game.cs används dock aldrig och skulle kunna tas bort.
+
+Is the class diagram updated to reflect the changes?
+Ja, klassdiagrammet är uppdaterat.
+
+Do you think the design/implementation has passed the grade 3 criteria?
+Vi tror att lösningen måste kompletteras med att par saker innan den kan bli godkänd, strängberoendet mellan Vyn och Controllern måste bort. Den duplicerade koden måste också tas bort. Strängberoendet mellan modellen och vyn bör också tas bort, även om vi är osäkra på om det behöver göras för ett godkänt betyg.

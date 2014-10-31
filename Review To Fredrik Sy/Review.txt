@@ -1,0 +1,31 @@
+Fredrik Sy fs222ep
+
+Try to compile/use the source code provided. Can you get it up and running? Is anything problematic?
+Vi har följt instruktionerna men vi får ändå inte igång programmet, testat olika sätt och frågat folk. Men det funkar inte.
+
+Test the runnable version of the application in a realistic way. Note any problems/bugs.
+Vi kan inte testa programmet och vet därför inte om det är några buggar.
+
+Does the implementation and diagrams conform (do they show the same thing)? Are there any missing relations? Relations in the wrong direction?
+Implementationen stämmer bra överens med diagrammen.
+
+Is the dependency between controller and view handled? How? Good? Bad?
+De är ett bra beroende. Som vi tycker är implementerad på rätt sätt
+
+Is the Strategy Pattern used correctly for the rule variant Soft17?
+Ja det är rätt.
+
+Is the Strategy Pattern used correctly for the variations of who wins the game?
+Ja det är rätt.
+
+Is the duplicate code removed from everywhere and put in a place that does not add any dependencies (What class already knows about cards and the deck)? Are interfaces updated to reflect the change?
+Ja, den duplicerade koden är borttagen på ett bra sätt.
+
+Is the Observer Pattern correctly implemented?
+Observer pattern är implenterad på ett bra sätt.
+
+Is the class diagram updated to reflect the changes?
+Klassdiagrammet är bra uppdaterat och tydligt ritad.
+
+Do you think the design/implementation has passed the grade 3 criteria?
+Det vi ser är riktigt bra men eftersom att vi inte kan testa programmet så kan vi inte säga om det finns buggar eller inte. Men implementationen är snygg och de är bra diagram.

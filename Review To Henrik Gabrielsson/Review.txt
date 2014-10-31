@@ -1,0 +1,38 @@
+Henrik, Gabrielsson hg222aa
+
+Try to compile/use the source code provided. Can you get it up and running? Is anything problematic?
+Det var inga problem att starta koden, men det var inte med någon instruktion.
+
+Test the runnable version of the application in a realistic way. Note any problems/bugs.
+Det är flera buggar i programmet det vi hittar är:
+Om man stannar och dealer har under 17 i score så händer det inget i programmet.(Dealer borde forstätta dra kort). Uppstår bara ibland. Båda måste ha score under 17.
+När detta inträffar kan jag även trycka på hit igen och få ett kort. Vilket inte borde funka.
+
+2.	När jag trycker på enter efter att spelet är slut kan man inte trycka på något mer. De borde gå att trycka på enter några gånger och sedan välja “Nytt spel”.
+
+Does the implementation and diagrams conform (do they show the same thing)? Are there any missing relations? Relations in the wrong direction?
+Soft17hitstrategy finns inte med i klassdiagrammet.
+
+Player/dealer Winstrategy finns inte med i klassdiagrammet
+Interface Winstrategy finns inte med.
+
+Is the dependency between controller and view handled? How? Good? Bad?
+De är ett bra beroende mellan view och controller.
+
+Is the Strategy Pattern used correctly for the rule variant Soft17?
+Ja, det används korrekt i koden, men det finns inget ritat i klassdiagrammet.
+
+Is the Strategy Pattern used correctly for the variations of who wins the game?
+Ja, det används korrekt i koden, men det finns inget ritat i klassdiagrammet. 
+
+Is the duplicate code removed from everywhere and put in a place that does not add any dependencies (What class already knows about cards and the deck)? Are interfaces updated to reflect the change?
+Ja den duplicerade koden är borttagen på ett korrekt sätt.
+
+Is the Observer Pattern correctly implemented?
+Ja den är korrekt implementerad
+
+Is the class diagram updated to reflect the changes?
+Nej, klassdiagrammet saknar rätt många saker i model.rules.
+
+Do you think the design/implementation has passed the grade 3 criteria?
+Som det ser ut nu så tycker vi att den inte klarar betyg 3 pga buggarna i programmet och saknaden av klasser i klassdiagrammet.
